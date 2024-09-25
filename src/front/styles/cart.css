@@ -1,0 +1,98 @@
+.cart-page {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+    background-color: #f7f7f7;
+  }
+  
+  .cart-items-container {
+    width: 60%;
+    background-color: #f4f0e9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .cart-item {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .cart-item-image {
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+  }
+  
+  .cart-item-details {
+    flex-grow: 1;
+    margin-left: 20px;
+  }
+  
+  .quantity-controls {
+    display: flex;
+    align-items: center;
+  }
+  
+  .quantity-controls button {
+    background-color: #000;
+    color: #fff;
+    padding: 5px;
+    border: none;
+    cursor: pointer;
+    margin: 0 5px;
+  }
+  
+  .add-more-products {
+    display: block;
+    margin: 20px auto;
+    background-color: #000;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .order-summary {
+    width: 35%;
+    background-color: #f4f0e9;
+    padding: 20px;
+    border-radius: 10px;
+  }
+  
+  .order-summary h2 {
+    margin-bottom: 20px;
+  }
+  
+  .summary-item {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .total {
+    margin-top: 20px;
+    font-weight: bold;
+  }
+  
+  .shipping-methods button {
+    background-color: #f7f7f7;
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin-right: 10px;
+    cursor: pointer;
+  }
+  
+  .checkout-button {
+    background-color: #000;
+    color: #fff;
+    padding: 10px;
+    width: 100%;
+    margin-top: 20px;
+    cursor: pointer;
+  }
+  
+  .checkout-button:hover {
+    background-color: #333;
+  }
+  
